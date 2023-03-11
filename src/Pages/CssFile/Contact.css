@@ -1,0 +1,61 @@
+.contact-page-wrapper{
+    padding-top:5.4rem;
+    padding-left:0;
+    padding-right:0;
+}
+.contact-header{
+    background-image: url(../../image/contact-header.jpg);
+    background-position: center;
+    background-size: 100%;
+    width:100%;
+    height: 15rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.contact-header h1{
+    font-size: 3rem;
+    color:#F61D68;
+    font-family: 'Aldrich', sans-serif;
+}
+.contact-title{
+    margin:3rem 0;
+}
+.contact-main-part{
+    color:rgba(0, 0, 0, 0.555);
+    margin-bottom:5rem;
+}
+.contact-main-part h2{
+    font-size: 2.5rem;
+    font-weight: 600;
+}
+.contact-main-part p{
+    font-size: 1.3rem;
+    font-weight: 400;
+}
+.contact-item-wrapper{
+    padding:1.5rem;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.contact-item-wrapper .d-flex{
+    justify-content: space-between;
+    align-items: center;
+}
+.contact-item-wrapper svg{
+    font-size:5rem;
+}
+.contact-item-details{
+    width: 70%;
+}
+.contact-item-details h2{
+    font-size: 1.9rem;
+    color:#001457
+}
+.contact-item-details p{
+    font-size: 1rem;
+    color:#001457
+}
+
+
+
+

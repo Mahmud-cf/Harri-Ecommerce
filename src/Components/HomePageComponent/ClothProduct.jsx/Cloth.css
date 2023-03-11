@@ -1,0 +1,61 @@
+.cloth-product-title-wrapper{
+    width: 20%;
+    margin-right:2rem;
+}
+.cloth-product-title-wrapper h2{
+    font-size: 18px;
+    line-height: 20px;
+    font-weight: 500;
+    color:#323232;
+    position: relative;
+    margin-top:1rem;
+}
+.cloth-product-title-wrapper p{
+    font-size: 13px;
+    font-weight: 400;
+    color:#323232;
+    margin:1.2rem 0;
+}
+.cloth-product-title-wrapper a{
+    font-size: 1rem;
+    padding:.4rem 1rem;
+    background-color: #F83E71;
+    color:#fff;
+    border-radius:3px;
+    box-sizing: border-box;
+}
+.cloth-product-title-wrapper button:hover{
+    background-color: #323232;
+    color:#fff;
+}
+.cloth-product-wrapper{
+    justify-content: space-between;
+}
+.cloth-product-item{
+    text-align: center;
+    border:1px solid #ddd;
+    padding:.8rem;
+    border-radius:10px;
+}
+.cloth-product-item:hover{
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+    transition:.3s;
+}
+.cloth-image img{
+    width:100%;
+    height:130px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.cloth-title h5{
+    font-size: 1em;
+    font-weight: 500;
+    line-height: 1.35em;
+    color: #323232;
+    margin-top:2rem;
+    cursor: pointer;
+}
+.cloth-title h5:hover{
+    color:#F83E71;
+    transition:.3s;
+}

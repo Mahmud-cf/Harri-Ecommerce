@@ -1,0 +1,124 @@
+.empty-cart-wrapper, .cart-page-wrapper{
+    padding-top:5.4rem;
+}
+.empty-title{
+    margin:4rem 0;
+    padding:3rem;
+    background-color: #f3f1f1;
+}
+.empty-title h2{
+    font-size: 2rem;
+    color:rgb(37, 37, 37)
+}
+.full-cart-wrapper{
+    justify-content: space-between;
+}
+.cart-item-wrapper{
+    width:70%;
+}
+.cart-title h1{
+    margin:3rem 0;
+    font-size: 1.8rem;
+    font-family: 'Aldrich', sans-serif;
+    font-weight: 700;
+}
+.full-cart-wrapper{
+    margin-bottom:4rem;
+}
+.cart-item-wrapper table{
+    border:1px solid #ddd;
+    width:100%;
+}
+.cart-item-wrapper table thead tr th, .total-price-div table tr th{
+    padding:1.2rem .3rem;
+}
+.cart-item-wrapper table thead tr, .total-price-div table thead tr {
+    border-bottom:1px solid #ddd;
+}
+.cart-item-wrapper table tbody tr{
+    padding:1rem;
+    border-bottom: 1px solid#ddd;
+}
+.cart-item-wrapper table tbody tr *{
+    font-size: 14px;
+}
+.cart-item-wrapper table tbody tr td , .total-price-div table tbody tr td{
+    padding:.3rem;
+}
+.cart-item-wrapper table tbody tr td .d-flex div{
+    padding:.3rem;
+    text-align: center;
+    border: 1px solid #ddd;
+    width:2.2rem;
+}
+.item-price{
+    color:#F61D68;
+    font-weight: 600;
+}
+.remove-icon{
+    border:1px solid #444242;
+    margin-left:1rem;
+    border-radius: 50%;
+    cursor: pointer;
+    width:1.5rem;
+    height:1.5rem;
+}
+.remove-icon svg{
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+.image-td{
+    width:5.5rem;
+    height:4.5rem
+}
+.cart-item-wrapper table tbody img{
+   width:5rem;
+   height:4rem;
+}
+
+.total-price-div{
+    width: 25%;
+}
+.total-price-div table{
+    width:100%;
+    border:1px solid #ddd;
+}
+.total-price-div table thead tr{
+    text-align: center;
+}
+.total-price-div table tbody tr{
+    border-bottom: 1px solid #ddd;
+    padding:1rem 0;
+}
+.total-price-div table tbody tr td{
+    padding:1rem .4rem;
+    border-right:1px solid #ddd;
+}
+.total-price-div table tbody tr td:first-child{
+    font-weight: 600;
+    font-size: 1rem;
+}
+.cart-item-pic-title{
+    align-items: center;
+    height:100%
+}
+.cart-item-pic-title div:last-child{
+    margin-left:1rem;
+}
+.cart-page-button{
+    width: 100%;
+    display: inline-block;
+    padding:.5rem 1.5rem;
+    background-color: #F61D68;
+    color:#fff;
+    margin-top:2rem;
+    text-decoration: none;
+    text-align: center;
+}
+.cart-page-button:hover{
+    color:#fff;
+    background-color: #323232;
+    transition: .2s;
+}
+
+
