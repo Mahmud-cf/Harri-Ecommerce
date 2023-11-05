@@ -7,6 +7,12 @@ This is a multiple-page E-commerce page. Product browsing, sorting, and cart fun
 
 On the home page, you see 3 categories of products are available. From here you can visit all product pages of each category. You can also see an individual product details page.
 
-On the cart page, you can see how many products are in the cart. You can see the subTotal of each product and also see the total amount of all products.
+On the cart page, you can see how many products are in the cart. You can see the subtotal of each product and also see the total amount of all products.
 
 Here are two more pages. One page is the 'about page' and one page is the 'contact page'.
+
+
+
+--This front-end-based e-commerce website is a React application built with React-Bootstrap, ReactRouting, and a simulated API for data management.
+--This application offers seamless product browsing, sorting, and cart management.
+--Developing this application using a simulated API presented challenges, particularly when persisting data to local storage.
